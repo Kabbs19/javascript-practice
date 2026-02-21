@@ -40,3 +40,11 @@ function divide() {
     let secondNum = Number(num2.value)
     sum.textContent = firstNum / secondNum
 }
+
+multiplyBtn.addEventListener("click", multiply)
+
+function multiply() {
+    let firstNum = Number(num1.value)
+    let secondNum = Number(num2.value)
+    sum.innerHTML = firstNum * secondNum
+}
