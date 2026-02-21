@@ -32,3 +32,11 @@ function subtract() {
     let secondNum = Number(num2.value)
     sum.textContent = firstNum - secondNum
 }
+
+divideBtn.addEventListener("click", divide)
+
+function divide() {
+    let firstNum = Number(num1.value)
+    let secondNum = Number(num2.value)
+    sum.textContent = firstNum / secondNum
+}
